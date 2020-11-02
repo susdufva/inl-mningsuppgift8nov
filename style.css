@@ -51,7 +51,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin-top: 8rem;
+    /* margin-top: 8rem; tas bort eftersom det ligger margin på section */
 }
 .bild2, .bild3 {
   height: auto; }
@@ -65,7 +65,7 @@ main{
 }
 .text1{
   text-align: left;
-  width: 70%;
+  width: 60%;
   /*width: 60%;*/
 }
  /* tagit bort width och istället lagt margin på hela sectionen, lägger ev tillbaka width vid @media */
@@ -82,10 +82,13 @@ main{
 .text2{
   text-align: right;
 }
+#darkgrey{
+  color: darkgrey;
+}
 .section3{
     display: flex;
     align-items: flex-start;
-    width: 80%;
+    width: 75%;
     text-align: left;
 }
  /*section 3 har witdh istället för margin eftersom den inte har någon bild */
