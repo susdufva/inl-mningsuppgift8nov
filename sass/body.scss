@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     line-height: 155%;
-    width: 100%;
    }
 
    main{
@@ -22,7 +21,6 @@ body {
 }
 .text1{
   text-align: left;
-  width: 60%;
   /*width: 60%;*/
 }
  /* tagit bort width och istället lagt margin på hela sectionen, lägger ev tillbaka width vid @media */
@@ -35,7 +33,11 @@ body {
   margin: 10%;
 }
  /*Ändrat width till margin för mer responsivt */
-
+@media (min-width: 768px){
+    .section1, .section2{
+        flex-direction: column;
+    }
+}
 .text2{
   text-align: right;
 }
