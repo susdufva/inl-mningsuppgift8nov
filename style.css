@@ -13,7 +13,7 @@ body {
 .hey {
   position: absolute;
   font-size: xx-large;
-  left: 60%;
+  left: 55%;
   bottom: 3.5rem; }
 
 .voodoo {
@@ -82,16 +82,13 @@ main{
 .text2{
   text-align: right;
 }
-#darkgrey{
-  color: darkgrey;
-}
 .section3{
     display: flex;
     align-items: flex-start;
     width: 75%;
     text-align: left;
 }
- /*section 3 har witdh istället för margin eftersom den inte har någon bild */
+ /*section 3 har inte någon bild */
 .p-gray {
   color: grey; 
 }
@@ -124,6 +121,7 @@ main{
 footer {
   background-color: black;
   color: white; 
+  height: auto;
 }
   
 .footer3 {

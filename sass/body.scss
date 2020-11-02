@@ -3,3 +3,49 @@ body {
     line-height: 155%;
     width: 100%;
    }
+
+   main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* margin-top: 8rem; tas bort eftersom det ligger margin på section */
+}
+.bild2, .bild3 {
+  height: auto; }
+
+.black{
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+
+}
+.text1{
+  text-align: left;
+  width: 60%;
+  /*width: 60%;*/
+}
+ /* tagit bort width och istället lagt margin på hela sectionen, lägger ev tillbaka width vid @media */
+.section1, .section2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /*width: 70%;*/
+  line-height: 180%; 
+  margin: 10%;
+}
+ /*Ändrat width till margin för mer responsivt */
+
+.text2{
+  text-align: right;
+}
+.section3{
+    display: flex;
+    align-items: flex-start;
+    width: 75%;
+    text-align: left;
+}
+ /*section 3 har inte någon bild */
+.p-gray {
+  color: grey; 
+}
