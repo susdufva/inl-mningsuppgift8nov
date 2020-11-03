@@ -42,3 +42,12 @@
     color: grey;
     line-height: 105%; 
     }
+  
+  @media (max-width: 760px){
+   .voodoo{
+      top: 1rem;
+    }
+    .front-text{
+      text-align: center;
+    }
+  }

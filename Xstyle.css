@@ -1,10 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Palanquin+Dark:wght@500&display=swap");
-
-body {
-  font-family: sans-serif;
-  line-height: 155%; }
-
 .bild1 {
   width: 100%; }
 
@@ -17,12 +12,12 @@ body {
   left: 55%;
   bottom: 3.5rem; }
 
-.voodoo {
+/*.voodoo {
   text-align: center;
   position: relative;
   top: 5rem;
   font-family: 'Palanquin Dark';
-  font-size: xx-large; }
+  font-size: xx-large; }*/
 
 h1, h3 {
   font-weight: bold;
@@ -47,9 +42,12 @@ span {
 @media (max-width: 760px) {
   .voodoo {
     top: 1rem; }
-  .front-text {
-    text-align: center; } }
+  .header-text {
+    max-width: 80%; } }
 
+body {
+  font-family: sans-serif;
+  line-height: 155%; }
 
 main {
   display: flex;
@@ -77,14 +75,12 @@ main {
   align-items: center;
   /*width: 70%;*/
   line-height: 180%;
-  margin: 10%; 
-  flex-direction: column;
-}
+  margin: 10%; }
 
 /*Ändrat width till margin för mer responsivt */
 @media (min-width: 768px) {
   .section1, .section2 {
-    flex-direction: row; } }
+    flex-direction: column; } }
 
 .text2 {
   text-align: right;
@@ -165,10 +161,11 @@ footer {
   .right {
     margin-top: 0rem; } }
 
-/*body {
+body {
   font-family: sans-serif;
-  line-height: 155%; }
-    
+  line-height: 155%;
+  width: 100%; }
+
 .bild1 {
   width: 100%; }
 
@@ -181,12 +178,12 @@ footer {
   left: 55%;
   bottom: 3.5rem; }
 
-.voodoo {
+/*.voodoo {
   text-align: center;
   position: relative;
   top: 5rem;
   font-family: 'Palanquin Dark';
-  font-size: xx-large; }
+  font-size: xx-large; }*/
 
 h1, h3 {
   font-weight: bold;
@@ -214,7 +211,7 @@ main {
   align-items: center;
   /* margin-top: 8rem; tas bort eftersom det ligger margin på section */ }
 
-/*.bild2, .bild3 {
+.bild2, .bild3 {
   height: auto; }
 
 .black {
@@ -229,17 +226,17 @@ main {
   /*width: 60%;*/ }
 
 /* tagit bort width och istället lagt margin på hela sectionen, lägger ev tillbaka width vid @media */
-/*.section1, .section2 {
+.section1, .section2 {
   display: flex;
   /*justify-content: flex-start;*/
- /* align-items: center;
+  align-items: center;
   /*width: 70%;*/
- /* line-height: 180%;
+  line-height: 180%;
   margin: 10%;
   flex-direction: column; }
 
 /*Ändrat width till margin för mer responsivt */
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .section1, .section2 {
     flex-direction: row; } }
 
@@ -253,7 +250,7 @@ main {
   text-align: left; }
 
 /*section 3 har inte någon bild */
-/*.p-gray {
+.p-gray {
   color: grey; }
 
 .footer1 {
@@ -280,7 +277,7 @@ main {
     margin-left: 30%;
      "Gammal kod" */
 /* sista svarta footer delen*/
-/*footer {
+footer {
   background-color: black;
   color: white;
   height: auto; }
@@ -308,4 +305,3 @@ main {
   font-style: italic;
   margin: 5rem;
   margin-top: 9.5rem; }
-*/
