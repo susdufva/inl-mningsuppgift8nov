@@ -1,53 +1,75 @@
 body {
   font-family: sans-serif;
   line-height: 155%; }
-
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin-top: 8rem; tas bort eftersom det ligger margin på section */ }
   
-  .bild2, .bild3 {
-    height: auto; }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
   
-  .black {
-    display: block;
-    background-color: black;
-    width: 100%;
-    height: 50vh; }
+.bild2, .bild3 {
+  height: auto; }
   
-  .text1 {
-    text-align: left;
-    width: 55%; }
+.black {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 50vh; }
   
-  /* tagit bort width och istället lagt margin på hela sectionen*/
-
+@media (max-width: 770px){
+  .black{
+    height: 30vh;
+  } 
+}
+  
+.text1 {
+  text-align: left;
+  width: 90%; 
+  margin-top: 1rem;
+}
+  
+.section1, .section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 180%;
+  margin: 10%; 
+  flex-direction: column;
+}
+  
+@media (min-width: 890px) {
   .section1, .section2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 70%;
-    line-height: 180%;
-    margin: 10%; 
-    flex-direction: column;
+    flex-direction: row; 
+  } 
+  .section2{
+    width: 60%;
   }
+  .text1{
+    width: 40%;
+  }
+  .text2{
+    width: 40%;
+  }}
   
-  @media (min-width: 768px) {
-    .section1, .section2 {
-      flex-direction: row; } }
-  
-  .text2 {
-    text-align: right;
-    width: 75%; }
+.text2 {
+  text-align: right;
+  width: 90%; }
   
   /*section 3 har inte någon bild */
-
-  .section3 {
-    display: flex;
-    align-items: flex-start;
-    width: 75%;
-    text-align: left; }
   
-  .p-gray {
-    color: grey; }
+.section3 {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  text-align: left;
+  }
+  
+@media (max-width: 770px){
+  .section3{
+    width: 90%;
+  }
+}
+  
+.p-gray {
+  color: grey; }

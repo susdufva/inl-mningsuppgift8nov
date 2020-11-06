@@ -57,14 +57,13 @@ span {
   .front-text{
     margin-top: 1rem;
     margin-right: 7px;
-  }
-  }
+  }}
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 8rem; tas bort eftersom det ligger margin på section */ }
+}
 
 .bild2, .bild3 {
   height: auto; }
@@ -75,11 +74,10 @@ main {
   width: 100%;
   height: 50vh; }
 
-@media (max-width: 767px){
+@media (max-width: 770px){
   .black{
     height: 30vh;
-  }
-  
+  } 
 }
 
 .text1 {
@@ -97,19 +95,13 @@ main {
   flex-direction: column;
 }
 
-/*@media (max-width: 790px){
-  .section1, .section2{
-    width: 90%;
-  }
-  .text1{
-    width: 90%;
-  } 
-}*/
-
-@media (min-width: 768px) {
+@media (min-width: 890px) {
   .section1, .section2 {
     flex-direction: row; 
     } 
+  .section2{
+    width: 60%;
+  }
   .text1{
     width: 40%;
   }
@@ -125,8 +117,8 @@ main {
 
 .section3 {
   display: flex;
-  align-items: flex-start;
-  width: 50%;
+  align-items: center;
+  width: 55%;
   text-align: left;
   }
 

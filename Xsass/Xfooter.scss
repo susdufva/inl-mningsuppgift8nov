@@ -15,13 +15,16 @@
   justify-content: center;
   font-size: large;
   line-height: 125%;
-  width: 70%;
+  width: 50%;
   text-align: center; }
 
 @media (max-width: 767px) {
   .footer1 {
     padding-top: 5%;
-    background-position: top; } }
+    background-position: top; } 
+  .text4{
+    width: 75%;
+  }}
 
 /* sista svarta footer delen*/
 
@@ -43,7 +46,7 @@ footer {
   flex-direction: column;
   text-align: left;
   margin: 5rem;
-  width: 50%; }
+  width: 30%; }
 
 .right {
   display: flex;
@@ -51,11 +54,21 @@ footer {
   text-align: right;
   font-style: italic;
   margin: 5rem;
-  margin-top: 9.5rem; }
+  margin-top: 9.5rem;
+  width: 20%; }
 
 @media (max-width: 767px) {
   .footer3 {
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
   .right {
-    margin-top: 0rem; } }
+    margin-top: 0rem;
+    margin-left: 4rem; 
+    width: 70%;
+    }
+  .left{
+    margin: 2rem;
+    width: 70%;
+  } }
+
