@@ -47,8 +47,18 @@ span {
 @media (max-width: 760px) {
   .voodoo {
     top: 1rem; }
-  .front-text {
-    text-align: center; } }
+  span{  
+    font-size: large;
+    padding: 5px;
+    }
+  .hey{
+    font-size: x-large;
+    }
+  .front-text{
+    margin-top: 1rem;
+    margin-right: 7px;
+  }
+  }
 
 
 main {
