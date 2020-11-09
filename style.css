@@ -131,7 +131,7 @@ main {
   color: grey; }
 
 .footer1 {
-  background-image: url(/bilder/Q1_newsletter-02.png);
+  background-image: url(bilder/Q1_newsletter-02.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
